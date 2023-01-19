@@ -12,6 +12,10 @@ public class Listdemo {
 		list.add(15);
 		list.add(12);
 		System.out.println(list);
+		
+		for(Integer l : list) {
+			System.out.print(" "+l);
+		}
 	}
 
 }
